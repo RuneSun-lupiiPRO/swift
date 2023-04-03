@@ -1,0 +1,19 @@
+#container {
+	width: 500px;
+	height: 500px;
+	margin: auto;
+}
+
+p {
+	text-align: center;
+	font-size: 18px;
+	font-family: Arial, sans-serif;
+	color: #333;
+}
+
+svg {
+	fill: none;
+	stroke: #333;
+	stroke-width: 2px;
+}
+

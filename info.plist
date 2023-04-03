@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>PayloadDisplayName</key>
+        <string>My Configuration Profile</string>
+        <key>PayloadIdentifier</key>
+        <string>com.mycompany.configprofile</string>
+        <key>PayloadRemovalDisallowed</key>
+        <false/>
+        <key>PayloadType</key>
+        <string>Configuration</string>
+        <key>PayloadUUID</key>
+        <string>12345678-1234-1234-1234-1234567890ab</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadContent</key>
+        <dict>
+            <key>allowCamera</key>
+            <true/>
+            <key>allowScreenCapture</key>
+            <false/>
+            <key>allowedApps</key>
+            <array>
+                <string>com.apple.Maps</string>
+                <string>com.apple.MobileAddressBook</string>
+            </array>
+        </dict>
+    </dict>
+</plist>
+
